@@ -38,6 +38,8 @@
 		74646EC81E4C3F910093941E /* SwizzleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74646EC51E4C3F910093941E /* SwizzleTool.m */; };
 		74646EC91E4C3F910093941E /* AnalyticsAOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 74646EC71E4C3F910093941E /* AnalyticsAOP.m */; };
 		74646ECB1E4C405A0093941E /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 74646ECA1E4C405A0093941E /* demo.js */; };
+		74646ED01E4C50A00093941E /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74646ECD1E4C50A00093941E /* DemoView.m */; };
+		74646ED11E4C50A00093941E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74646ECF1E4C50A00093941E /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +126,10 @@
 		74646EC61E4C3F910093941E /* AnalyticsAOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsAOP.h; sourceTree = "<group>"; };
 		74646EC71E4C3F910093941E /* AnalyticsAOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsAOP.m; sourceTree = "<group>"; };
 		74646ECA1E4C405A0093941E /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		74646ECC1E4C50A00093941E /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
+		74646ECD1E4C50A00093941E /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+		74646ECE1E4C50A00093941E /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		74646ECF1E4C50A00093941E /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +188,10 @@
 				1828FAE71E4AB11A001E6653 /* AppDelegate.m */,
 				1828FAE91E4AB11A001E6653 /* ViewController.h */,
 				1828FAEA1E4AB11A001E6653 /* ViewController.m */,
+				74646ECC1E4C50A00093941E /* DemoView.h */,
+				74646ECD1E4C50A00093941E /* DemoView.m */,
+				74646ECE1E4C50A00093941E /* FirstViewController.h */,
+				74646ECF1E4C50A00093941E /* FirstViewController.m */,
 				1828FAEC1E4AB11A001E6653 /* Main.storyboard */,
 				1828FAEF1E4AB11A001E6653 /* Assets.xcassets */,
 				1828FAF11E4AB11A001E6653 /* LaunchScreen.storyboard */,
@@ -699,6 +709,8 @@
 				1828FB741E4AB605001E6653 /* BaseHttpRequest.m in Sources */,
 				18FCF00F1E4AE41A00E9079B /* Aspects.m in Sources */,
 				1828FAEB1E4AB11A001E6653 /* ViewController.m in Sources */,
+				74646ED11E4C50A00093941E /* FirstViewController.m in Sources */,
+				74646ED01E4C50A00093941E /* DemoView.m in Sources */,
 				1828FB761E4AB605001E6653 /* BaseNavigationController.m in Sources */,
 				1828FAE81E4AB11A001E6653 /* AppDelegate.m in Sources */,
 				1828FB751E4AB605001E6653 /* BaseModel.m in Sources */,
