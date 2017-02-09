@@ -15,6 +15,29 @@
 		1828FAF31E4AB11A001E6653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1828FAF11E4AB11A001E6653 /* LaunchScreen.storyboard */; };
 		1828FAFE1E4AB11B001E6653 /* PJBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FAFD1E4AB11B001E6653 /* PJBTests.m */; };
 		1828FB091E4AB11B001E6653 /* PJBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB081E4AB11B001E6653 /* PJBUITests.m */; };
+		1828FB741E4AB605001E6653 /* BaseHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB1D1E4AB605001E6653 /* BaseHttpRequest.m */; };
+		1828FB751E4AB605001E6653 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB201E4AB605001E6653 /* BaseModel.m */; };
+		1828FB761E4AB605001E6653 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB231E4AB605001E6653 /* BaseNavigationController.m */; };
+		1828FB771E4AB605001E6653 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB261E4AB605001E6653 /* BaseViewController.m */; };
+		1828FB801E4AB605001E6653 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB4E1E4AB605001E6653 /* Foundation+Log.m */; };
+		1828FBA41E4ABA78001E6653 /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB921E4ABA78001E6653 /* YTKBaseRequest.m */; };
+		1828FBA51E4ABA78001E6653 /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB941E4ABA78001E6653 /* YTKBatchRequest.m */; };
+		1828FBA61E4ABA78001E6653 /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB961E4ABA78001E6653 /* YTKBatchRequestAgent.m */; };
+		1828FBA71E4ABA78001E6653 /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB981E4ABA78001E6653 /* YTKChainRequest.m */; };
+		1828FBA81E4ABA78001E6653 /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB9A1E4ABA78001E6653 /* YTKChainRequestAgent.m */; };
+		1828FBA91E4ABA78001E6653 /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB9D1E4ABA78001E6653 /* YTKNetworkAgent.m */; };
+		1828FBAA1E4ABA78001E6653 /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FB9F1E4ABA78001E6653 /* YTKNetworkConfig.m */; };
+		1828FBAB1E4ABA78001E6653 /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FBA11E4ABA78001E6653 /* YTKNetworkPrivate.m */; };
+		1828FBAC1E4ABA78001E6653 /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FBA31E4ABA78001E6653 /* YTKRequest.m */; };
+		1828FBB71E4AC5A7001E6653 /* NSDictionary+Analysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828FBB61E4AC5A7001E6653 /* NSDictionary+Analysis.m */; };
+		1875B7611E4B05AA0072A760 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875B75F1E4B05AA0072A760 /* JPEngine.m */; };
+		1875B7621E4B05AA0072A760 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 1875B7601E4B05AA0072A760 /* JSPatch.js */; };
+		18FCF00F1E4AE41A00E9079B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FCF00E1E4AE41A00E9079B /* Aspects.m */; };
+		18FCF0181E4AE55600E9079B /* PJPtagConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18FCF0171E4AE55600E9079B /* PJPtagConfig.plist */; };
+		52B463CC60131A389D5E5634 /* libPods-PJB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47642D98300164CE6D9F3C33 /* libPods-PJB.a */; };
+		74646EC81E4C3F910093941E /* SwizzleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74646EC51E4C3F910093941E /* SwizzleTool.m */; };
+		74646EC91E4C3F910093941E /* AnalyticsAOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 74646EC71E4C3F910093941E /* AnalyticsAOP.m */; };
+		74646ECB1E4C405A0093941E /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = 74646ECA1E4C405A0093941E /* demo.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +74,56 @@
 		1828FB041E4AB11B001E6653 /* PJBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1828FB081E4AB11B001E6653 /* PJBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJBUITests.m; sourceTree = "<group>"; };
 		1828FB0A1E4AB11B001E6653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1828FB1C1E4AB605001E6653 /* BaseHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHttpRequest.h; sourceTree = "<group>"; };
+		1828FB1D1E4AB605001E6653 /* BaseHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHttpRequest.m; sourceTree = "<group>"; };
+		1828FB1F1E4AB605001E6653 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		1828FB201E4AB605001E6653 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		1828FB221E4AB605001E6653 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		1828FB231E4AB605001E6653 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		1828FB251E4AB605001E6653 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1828FB261E4AB605001E6653 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1828FB281E4AB605001E6653 /* CategoryPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryPublicHeader.h; sourceTree = "<group>"; };
+		1828FB2A1E4AB605001E6653 /* ConstantPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantPublicHeader.h; sourceTree = "<group>"; };
+		1828FB2C1E4AB605001E6653 /* DataBasePublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBasePublicHeader.h; sourceTree = "<group>"; };
+		1828FB2E1E4AB605001E6653 /* MacrosPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacrosPublicHeader.h; sourceTree = "<group>"; };
+		1828FB381E4AB605001E6653 /* NetworkPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkPublicHeader.h; sourceTree = "<group>"; };
+		1828FB4C1E4AB605001E6653 /* ToolPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolPublicHeader.h; sourceTree = "<group>"; };
+		1828FB4E1E4AB605001E6653 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		1828FB911E4ABA78001E6653 /* YTKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBaseRequest.h; sourceTree = "<group>"; };
+		1828FB921E4ABA78001E6653 /* YTKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBaseRequest.m; sourceTree = "<group>"; };
+		1828FB931E4ABA78001E6653 /* YTKBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequest.h; sourceTree = "<group>"; };
+		1828FB941E4ABA78001E6653 /* YTKBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequest.m; sourceTree = "<group>"; };
+		1828FB951E4ABA78001E6653 /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequestAgent.h; sourceTree = "<group>"; };
+		1828FB961E4ABA78001E6653 /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		1828FB971E4ABA78001E6653 /* YTKChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequest.h; sourceTree = "<group>"; };
+		1828FB981E4ABA78001E6653 /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
+		1828FB991E4ABA78001E6653 /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		1828FB9A1E4ABA78001E6653 /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
+		1828FB9B1E4ABA78001E6653 /* YTKNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetwork.h; sourceTree = "<group>"; };
+		1828FB9C1E4ABA78001E6653 /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		1828FB9D1E4ABA78001E6653 /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
+		1828FB9E1E4ABA78001E6653 /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
+		1828FB9F1E4ABA78001E6653 /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
+		1828FBA01E4ABA78001E6653 /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
+		1828FBA11E4ABA78001E6653 /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		1828FBA21E4ABA78001E6653 /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
+		1828FBA31E4ABA78001E6653 /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
+		1828FBB51E4AC5A7001E6653 /* NSDictionary+Analysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Analysis.h"; sourceTree = "<group>"; };
+		1828FBB61E4AC5A7001E6653 /* NSDictionary+Analysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Analysis.m"; sourceTree = "<group>"; };
+		1875B75E1E4B05AA0072A760 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		1875B75F1E4B05AA0072A760 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		1875B7601E4B05AA0072A760 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		18FCF00D1E4AE41A00E9079B /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		18FCF00E1E4AE41A00E9079B /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		18FCF0171E4AE55600E9079B /* PJPtagConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PJPtagConfig.plist; sourceTree = "<group>"; };
+		3471500B98D49F4F89FB62BA /* Pods-PJB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJB.release.xcconfig"; path = "Pods/Target Support Files/Pods-PJB/Pods-PJB.release.xcconfig"; sourceTree = "<group>"; };
+		47642D98300164CE6D9F3C33 /* libPods-PJB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PJB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		658965CB27C87F8C9B54C149 /* Pods-PJB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PJB/Pods-PJB.debug.xcconfig"; sourceTree = "<group>"; };
+		74646EC41E4C3F910093941E /* SwizzleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleTool.h; sourceTree = "<group>"; };
+		74646EC51E4C3F910093941E /* SwizzleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleTool.m; sourceTree = "<group>"; };
+		74646EC61E4C3F910093941E /* AnalyticsAOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsAOP.h; sourceTree = "<group>"; };
+		74646EC71E4C3F910093941E /* AnalyticsAOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsAOP.m; sourceTree = "<group>"; };
+		74646ECA1E4C405A0093941E /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B463CC60131A389D5E5634 /* libPods-PJB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +159,8 @@
 				1828FAFC1E4AB11B001E6653 /* PJBTests */,
 				1828FB071E4AB11B001E6653 /* PJBUITests */,
 				1828FAE11E4AB11A001E6653 /* Products */,
+				EFFE504F9184A64AFD5C9978 /* Pods */,
+				9C03EA71C01CD5C8510132D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +177,7 @@
 		1828FAE21E4AB11A001E6653 /* PJB */ = {
 			isa = PBXGroup;
 			children = (
+				1828FB181E4AB605001E6653 /* Classes */,
 				1828FAE61E4AB11A001E6653 /* AppDelegate.h */,
 				1828FAE71E4AB11A001E6653 /* AppDelegate.m */,
 				1828FAE91E4AB11A001E6653 /* ViewController.h */,
@@ -140,6 +217,293 @@
 			path = PJBUITests;
 			sourceTree = "<group>";
 		};
+		1828FB181E4AB605001E6653 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1828FBAD1E4AC31B001E6653 /* Module */,
+				1828FB191E4AB605001E6653 /* Expand */,
+				1828FB4D1E4AB605001E6653 /* Utils */,
+				1828FB4F1E4AB605001E6653 /* Vender */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1828FB191E4AB605001E6653 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB1A1E4AB605001E6653 /* Base */,
+				1828FB271E4AB605001E6653 /* Category */,
+				1828FB291E4AB605001E6653 /* Constant */,
+				1828FB2B1E4AB605001E6653 /* DataBase */,
+				1828FB2D1E4AB605001E6653 /* Macros */,
+				1828FB2F1E4AB605001E6653 /* Network */,
+				1828FB4B1E4AB605001E6653 /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		1828FB1A1E4AB605001E6653 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB1B1E4AB605001E6653 /* BaseHttpRequest */,
+				1828FB1E1E4AB605001E6653 /* BaseModel */,
+				1828FB211E4AB605001E6653 /* BaseNavigationController */,
+				1828FB241E4AB605001E6653 /* BaseViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1828FB1B1E4AB605001E6653 /* BaseHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB1C1E4AB605001E6653 /* BaseHttpRequest.h */,
+				1828FB1D1E4AB605001E6653 /* BaseHttpRequest.m */,
+			);
+			path = BaseHttpRequest;
+			sourceTree = "<group>";
+		};
+		1828FB1E1E4AB605001E6653 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB1F1E4AB605001E6653 /* BaseModel.h */,
+				1828FB201E4AB605001E6653 /* BaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		1828FB211E4AB605001E6653 /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB221E4AB605001E6653 /* BaseNavigationController.h */,
+				1828FB231E4AB605001E6653 /* BaseNavigationController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		1828FB241E4AB605001E6653 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB251E4AB605001E6653 /* BaseViewController.h */,
+				1828FB261E4AB605001E6653 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		1828FB271E4AB605001E6653 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB281E4AB605001E6653 /* CategoryPublicHeader.h */,
+				1828FBB41E4AC57B001E6653 /* NSDictionary */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1828FB291E4AB605001E6653 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB2A1E4AB605001E6653 /* ConstantPublicHeader.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		1828FB2B1E4AB605001E6653 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB2C1E4AB605001E6653 /* DataBasePublicHeader.h */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		1828FB2D1E4AB605001E6653 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB2E1E4AB605001E6653 /* MacrosPublicHeader.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		1828FB2F1E4AB605001E6653 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB381E4AB605001E6653 /* NetworkPublicHeader.h */,
+				1828FBB21E4AC4E5001E6653 /* DataModel */,
+				1828FBB31E4AC4E5001E6653 /* RequestModel */,
+				1828FB901E4ABA78001E6653 /* YTKNetwork */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1828FB4B1E4AB605001E6653 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB4C1E4AB605001E6653 /* ToolPublicHeader.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1828FB4D1E4AB605001E6653 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18FCF00B1E4AE41100E9079B /* PTAG */,
+				1828FB4E1E4AB605001E6653 /* Foundation+Log.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1828FB4F1E4AB605001E6653 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				1875B75D1E4B05AA0072A760 /* JSPatch */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		1828FB901E4ABA78001E6653 /* YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				1828FB911E4ABA78001E6653 /* YTKBaseRequest.h */,
+				1828FB921E4ABA78001E6653 /* YTKBaseRequest.m */,
+				1828FB931E4ABA78001E6653 /* YTKBatchRequest.h */,
+				1828FB941E4ABA78001E6653 /* YTKBatchRequest.m */,
+				1828FB951E4ABA78001E6653 /* YTKBatchRequestAgent.h */,
+				1828FB961E4ABA78001E6653 /* YTKBatchRequestAgent.m */,
+				1828FB971E4ABA78001E6653 /* YTKChainRequest.h */,
+				1828FB981E4ABA78001E6653 /* YTKChainRequest.m */,
+				1828FB991E4ABA78001E6653 /* YTKChainRequestAgent.h */,
+				1828FB9A1E4ABA78001E6653 /* YTKChainRequestAgent.m */,
+				1828FB9B1E4ABA78001E6653 /* YTKNetwork.h */,
+				1828FB9C1E4ABA78001E6653 /* YTKNetworkAgent.h */,
+				1828FB9D1E4ABA78001E6653 /* YTKNetworkAgent.m */,
+				1828FB9E1E4ABA78001E6653 /* YTKNetworkConfig.h */,
+				1828FB9F1E4ABA78001E6653 /* YTKNetworkConfig.m */,
+				1828FBA01E4ABA78001E6653 /* YTKNetworkPrivate.h */,
+				1828FBA11E4ABA78001E6653 /* YTKNetworkPrivate.m */,
+				1828FBA21E4ABA78001E6653 /* YTKRequest.h */,
+				1828FBA31E4ABA78001E6653 /* YTKRequest.m */,
+			);
+			path = YTKNetwork;
+			sourceTree = "<group>";
+		};
+		1828FBAD1E4AC31B001E6653 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				1828FBAE1E4AC4AF001E6653 /* Financial */,
+				1828FBAF1E4AC4AF001E6653 /* Home */,
+				1828FBB01E4AC4AF001E6653 /* Invest */,
+				1828FBB11E4AC4AF001E6653 /* Me */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		1828FBAE1E4AC4AF001E6653 /* Financial */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Financial;
+			sourceTree = "<group>";
+		};
+		1828FBAF1E4AC4AF001E6653 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1828FBB01E4AC4AF001E6653 /* Invest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Invest;
+			sourceTree = "<group>";
+		};
+		1828FBB11E4AC4AF001E6653 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1828FBB21E4AC4E5001E6653 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		1828FBB31E4AC4E5001E6653 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		1828FBB41E4AC57B001E6653 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				1828FBB51E4AC5A7001E6653 /* NSDictionary+Analysis.h */,
+				1828FBB61E4AC5A7001E6653 /* NSDictionary+Analysis.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		1875B75D1E4B05AA0072A760 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				1875B75E1E4B05AA0072A760 /* JPEngine.h */,
+				1875B75F1E4B05AA0072A760 /* JPEngine.m */,
+				1875B7601E4B05AA0072A760 /* JSPatch.js */,
+				74646ECA1E4C405A0093941E /* demo.js */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		18FCF00B1E4AE41100E9079B /* PTAG */ = {
+			isa = PBXGroup;
+			children = (
+				18FCF0171E4AE55600E9079B /* PJPtagConfig.plist */,
+				18FCF0101E4AE4D300E9079B /* Addition */,
+				18FCF00C1E4AE41100E9079B /* Aspects */,
+			);
+			path = PTAG;
+			sourceTree = "<group>";
+		};
+		18FCF00C1E4AE41100E9079B /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				18FCF00D1E4AE41A00E9079B /* Aspects.h */,
+				18FCF00E1E4AE41A00E9079B /* Aspects.m */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		18FCF0101E4AE4D300E9079B /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				74646EC41E4C3F910093941E /* SwizzleTool.h */,
+				74646EC51E4C3F910093941E /* SwizzleTool.m */,
+				74646EC61E4C3F910093941E /* AnalyticsAOP.h */,
+				74646EC71E4C3F910093941E /* AnalyticsAOP.m */,
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
+		9C03EA71C01CD5C8510132D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47642D98300164CE6D9F3C33 /* libPods-PJB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFFE504F9184A64AFD5C9978 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				658965CB27C87F8C9B54C149 /* Pods-PJB.debug.xcconfig */,
+				3471500B98D49F4F89FB62BA /* Pods-PJB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +511,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1828FB0D1E4AB11B001E6653 /* Build configuration list for PBXNativeTarget "PJB" */;
 			buildPhases = (
+				657F4B3139178690D5B53967 /* [CP] Check Pods Manifest.lock */,
 				1828FADC1E4AB11A001E6653 /* Sources */,
 				1828FADD1E4AB11A001E6653 /* Frameworks */,
 				1828FADE1E4AB11A001E6653 /* Resources */,
+				446FC808D9C5639A033527BE /* [CP] Embed Pods Frameworks */,
+				D7D7E934ACFCFDEF4F3FDF71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,12 +569,13 @@
 		1828FAD81E4AB11A001E6653 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = WeiHu;
 				TargetAttributes = {
 					1828FADF1E4AB11A001E6653 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 6RE56K8B4Z;
+						ProvisioningStyle = Manual;
 					};
 					1828FAF81E4AB11B001E6653 = {
 						CreatedOnToolsVersion = 8.1;
@@ -247,6 +615,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1828FAF31E4AB11A001E6653 /* LaunchScreen.storyboard in Resources */,
+				1875B7621E4B05AA0072A760 /* JSPatch.js in Resources */,
+				18FCF0181E4AE55600E9079B /* PJPtagConfig.plist in Resources */,
+				74646ECB1E4C405A0093941E /* demo.js in Resources */,
 				1828FAF01E4AB11A001E6653 /* Assets.xcassets in Resources */,
 				1828FAEE1E4AB11A001E6653 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +639,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		446FC808D9C5639A033527BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PJB/Pods-PJB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		657F4B3139178690D5B53967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D7E934ACFCFDEF4F3FDF71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PJB/Pods-PJB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1828FADC1E4AB11A001E6653 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1828FBB71E4AC5A7001E6653 /* NSDictionary+Analysis.m in Sources */,
+				1828FBA81E4ABA78001E6653 /* YTKChainRequestAgent.m in Sources */,
+				1828FBA91E4ABA78001E6653 /* YTKNetworkAgent.m in Sources */,
+				1828FBA71E4ABA78001E6653 /* YTKChainRequest.m in Sources */,
+				1828FB741E4AB605001E6653 /* BaseHttpRequest.m in Sources */,
+				18FCF00F1E4AE41A00E9079B /* Aspects.m in Sources */,
 				1828FAEB1E4AB11A001E6653 /* ViewController.m in Sources */,
+				1828FB761E4AB605001E6653 /* BaseNavigationController.m in Sources */,
 				1828FAE81E4AB11A001E6653 /* AppDelegate.m in Sources */,
+				1828FB751E4AB605001E6653 /* BaseModel.m in Sources */,
+				1828FB771E4AB605001E6653 /* BaseViewController.m in Sources */,
+				74646EC91E4C3F910093941E /* AnalyticsAOP.m in Sources */,
+				1828FBAC1E4ABA78001E6653 /* YTKRequest.m in Sources */,
+				1828FBAA1E4ABA78001E6653 /* YTKNetworkConfig.m in Sources */,
 				1828FAE51E4AB11A001E6653 /* main.m in Sources */,
+				1828FBA41E4ABA78001E6653 /* YTKBaseRequest.m in Sources */,
+				1828FB801E4AB605001E6653 /* Foundation+Log.m in Sources */,
+				1828FBA51E4ABA78001E6653 /* YTKBatchRequest.m in Sources */,
+				1875B7611E4B05AA0072A760 /* JPEngine.m in Sources */,
+				74646EC81E4C3F910093941E /* SwizzleTool.m in Sources */,
+				1828FBA61E4ABA78001E6653 /* YTKBatchRequestAgent.m in Sources */,
+				1828FBAB1E4ABA78001E6653 /* YTKNetworkPrivate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +786,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -395,6 +834,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -420,23 +860,35 @@
 		};
 		1828FB0E1E4AB11B001E6653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658965CB27C87F8C9B54C149 /* Pods-PJB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RE56K8B4Z;
 				INFOPLIST_FILE = PJB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pj.PJB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b4c008f-c83c-47ab-9208-cbf17410f9c1";
+				PROVISIONING_PROFILE_SPECIFIER = 20160421_wildcard_app;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1828FB0F1E4AB11B001E6653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3471500B98D49F4F89FB62BA /* Pods-PJB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6RE56K8B4Z;
 				INFOPLIST_FILE = PJB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pj.PJB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b4c008f-c83c-47ab-9208-cbf17410f9c1";
+				PROVISIONING_PROFILE_SPECIFIER = 20160421_wildcard_app;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -505,6 +957,7 @@
 				1828FB0F1E4AB11B001E6653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1828FB101E4AB11B001E6653 /* Build configuration list for PBXNativeTarget "PJBTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +966,7 @@
 				1828FB121E4AB11B001E6653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1828FB131E4AB11B001E6653 /* Build configuration list for PBXNativeTarget "PJBUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +975,7 @@
 				1828FB151E4AB11B001E6653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

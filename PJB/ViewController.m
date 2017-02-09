@@ -25,5 +25,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)demo{
 
+}
+
+#pragma mark - buttonAction
+
+- (IBAction)leftButtonControlAction:(UIButton *)sender {
+    
+    
+}
+
+- (IBAction)rightButtonControlAction:(UIButton *)sender {
+    
+}
+
+- (IBAction)commonButtonControlAction:(UIButton *)sender {
+    
+    
+}
 @end
