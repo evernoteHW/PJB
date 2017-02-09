@@ -119,7 +119,6 @@ const NSArray *___DPodRecordType;
     if (isAddMethod) {
         Method originalMethod = class_getInstanceMethod(class, originalSEL);
         Method swizzledMethod = class_getInstanceMethod(class, swizzledSEL);
-        
         method_exchangeImplementations(originalMethod, swizzledMethod);
     }
     
@@ -131,6 +130,65 @@ void aop_gestureAction(id self, SEL _cmd, id sender) {
     NSLog(@"%@", [[AnalyticsAOP manager] eventType:TapEventIDs sel:_cmd target:self]);
 }
 
+@end
 
+@implementation UITableView (AOP)
+
++ (void)load
+{
+    static dispatch_once_t dispatch_once_token;
+    dispatch_once(&dispatch_once_token, ^{
+        [SwizzleTool swizzleWithClass:[self class] originalSelector:@selector(setDelegate:) swizzleSelector:@selector(aop_setDelegate:)];
+    });
+}
+
+- (void)aop_setDelegate:(id<UITableViewDelegate>)delegate
+{
+    [self aop_setDelegate:delegate];
+    
+    if (class_addMethod([delegate class], NSSelectorFromString(@"aop_didSelectRowAtIndexPath"), (IMP)vi_didSelectRowAtIndexPath, "v@:@@")) {
+        Method didSelectOriginalMethod = class_getInstanceMethod([delegate class], NSSelectorFromString(@"aop_didSelectRowAtIndexPath"));
+        Method didSelectSwizzledMethod = class_getInstanceMethod([delegate class], @selector(tableView:didSelectRowAtIndexPath:));
+        
+        method_exchangeImplementations(didSelectOriginalMethod, didSelectSwizzledMethod);
+    }
+}
+
+void vi_didSelectRowAtIndexPath(id self, SEL _cmd, id tableView, id indexPath)
+{
+    SEL selector = NSSelectorFromString(@"aop_didSelectRowAtIndexPath");
+    ((void(*)(id, SEL, id, id))objc_msgSend)(self, selector, tableView, indexPath);
+}
+
+@end
+
+
+@implementation UICollectionView (AOP)
+
++ (void)load
+{
+    static dispatch_once_t dispatch_once_token;
+    dispatch_once(&dispatch_once_token, ^{
+        [SwizzleTool swizzleWithClass:[self class] originalSelector:@selector(setDelegate:) swizzleSelector:@selector(aop_setDelegate:)];
+    });
+}
+
+- (void)aop_setDelegate:(id<UICollectionViewDelegate>)delegate
+{
+    [self aop_setDelegate:delegate];
+    
+    if (class_addMethod([delegate class], NSSelectorFromString(@"aop_didSelectItemAtIndexPath"), (IMP)vi_didSelectItemAtIndexPath, "v@:@@")) {
+        Method didSelectOriginalMethod = class_getInstanceMethod([delegate class], NSSelectorFromString(@"aop_didSelectItemAtIndexPath"));
+        Method didSelectSwizzledMethod = class_getInstanceMethod([delegate class], @selector(collectionView:didSelectItemAtIndexPath:));
+        
+        method_exchangeImplementations(didSelectOriginalMethod, didSelectSwizzledMethod);
+    }
+}
+
+void vi_didSelectItemAtIndexPath(id self, SEL _cmd, id collectionView, id indexPath)
+{
+    SEL selector = NSSelectorFromString(@"aop_didSelectItemAtIndexPath");
+    ((void(*)(id, SEL, id, id))objc_msgSend)(self, selector, collectionView, indexPath);
+}
 
 @end

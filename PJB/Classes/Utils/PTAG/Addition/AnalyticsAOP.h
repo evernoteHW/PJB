@@ -10,17 +10,19 @@
 #import <UIKit/UIKit.h>
 
 @interface AnalyticsAOP : NSObject
-
 @end
 
 @interface UIViewController (AOP)
-
 @end
 
 @interface UIControl (AOP)
-
 @end
 
 @interface UITapGestureRecognizer (AOP)
+@end
 
+@interface UITableView (AOP)
+@end
+
+@interface UICollectionView (AOP)
 @end
